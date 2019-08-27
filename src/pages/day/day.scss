@@ -1,0 +1,38 @@
+page-day {
+
+.fond{
+                    background: linear-gradient(0.25turn, #988B8F, rgb(152, 139, 143), #B73235, #B73235);
+
+
+}
+
+
+// style for slider
+ion-slides.to-top {
+  height: 200px;
+  margin-bottom: -5px;
+
+  .swiper-pagination {
+    display: block !important;
+
+    .swiper-pagination-bullet {
+      background: color($colors, blu);
+    }
+
+  }
+}
+
+.text-sm {
+  font-size: 0.8em;
+}
+
+.text-white {
+  color: #fff;
+}
+.p{
+  font-size: 0.9em;
+  color: #fff;
+}
+
+
+}

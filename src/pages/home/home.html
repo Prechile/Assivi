@@ -1,0 +1,72 @@
+
+<ion-header>
+  <ion-navbar color="canal">
+    <button ion-button menuToggle>
+      <ion-icon name='menu'></ion-icon>
+    </button>
+<ion-title>Acceuil</ion-title>
+
+</ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+<div>
+<ion-grid class="text-white" style="background-color: #242A31;">
+<ion-row style="border: 1px solid #FFFF">
+      <ion-label>Selectionnez une salle</ion-label>
+       <ion-select name="salle" [(ngModel)]="salle" interface="popover">
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)" >Togo, Lomé-CanalOlympia Godopé</ion-option>
+        <ion-option [value]="mide" (ionSelect)="onChange(salle)" >Togo, Lomé-CanalOlympia Midè</ion-option>
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)" >Bénin, Cotonou-CanalOlympia Wologuédé</ion-option>
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)" >Burkina Faso, Ouagadougou-CanalOlympia Idrissa Ouédrago</ion-option>
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)" >Cameroun, Yaoundé-CanalOlympia Yaoundé 1</ion-option>
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)" >Cameroun, Douala-CanalOlympia Bessengué</ion-option>
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)">Guinée, Conakry-CanalOlympia Kaloum</ion-option>
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)">Niger, Niamey-CanalOlympia Hippodrome</ion-option>
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)">Sénégal, Dakar-CanalOlympia Téranga</ion-option>
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)">Gabon, Port-Gentil-CanalOlympia Mandji'ozangue</ion-option>
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)">Congo, Brazzaville-CanalOlympia Poto-Poto</ion-option>
+        <ion-option [value]="godope" (ionSelect)="onChange(salle)">Madagascar, Antananarivo-CanalOlympia Iarivo</ion-option>
+      </ion-select>
+</ion-row>
+</ion-grid>
+<img src="../../assets/imgs/home.png">
+
+
+   <ion-card>
+    <img src="../../assets/imgs/canal.jpg">
+    <ion-card-header></ion-card-header>
+    <ion-card-content>
+      <b>Le premier réseau de salle de cinéma et de spectacle en Afrique.<br>
+      CanalOlympia, là ou vibre la culture en Afrique !</b><br><br>
+      Cinéma, music, spectacles: CanalOlympia, c'est la combinaison des savoir-faire du
+      groupe vivendi.<br>
+      Canalolympia rapelle deux marques phares associant la richesse des contenus de canal+ et
+      l'expertise de la mythique salle parisienne L'Olympia. Vivebdi entend développer <b>le premier réseau de salles de cinéma et de spectacles en Afrique,</b>et participer ainsi à la création de nouveaux lieu de vie dédiés au
+      diverstissement et à la culture sur le continent.
+    </ion-card-content>
+  </ion-card>
+  </div>
+   <ion-card style="background-color: #0F568D;">
+    <ion-card-header style="text-align: center; font-size: 20px; color: white;">INFOS PRATIQUES</ion-card-header>
+
+    <ion-card-content>
+      <b style="color: white; font-size: 16px;"><ion-icon name='time'></ion-icon> HORAIRES DES SEANCES</b>
+      <p class="p">Du Mardi au Jeudi</p>
+      <p class="p">17h-20h</p>
+      <p class="p">Vendredi</p>
+      <p class="p">17h-20h-22h30</p>
+      <p class="p">Samedi et Dimanche</p>
+      <p class="p">11h-14h-17h-20h-22h30</p><br>
+      <b style="color: white; font-size: 16px;"><ion-icon name='cash'></ion-icon> TARIFS</b>
+      <p class="p">Normal:                         1500 FCFA</p><hr>
+      <p class="p">Enfant(< 12 ans):                1000 FCFA</p><hr>
+      <p class="p">Séance spéciales:                 5000 FCFA</p><hr>
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+

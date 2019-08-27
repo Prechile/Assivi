@@ -1,0 +1,141 @@
+[
+  {
+    "type": "famille",
+    "id": 19404,
+    "video": true,
+    "vote_average": "1h 03",
+    "title": "Dilwale Dulhania Le Jayenge",
+    "adult": 5000,
+    "children": 1500,
+    "Author":"De john Favreauv avec Rayane Bensetti, Anne sila",
+    "poster_path": "https://www.canalolympia.com/wp-content/uploads/2019/06/dumbo.jpg",
+    "original_language": "hi",
+    "original_title": "Dilwale Dulhania Le Jayenge",
+    "genre_ids": [35, 18, 10749],
+    "backdrop_path": "/nl79FQ8xWZkhL3rDr1v2RFFR6J0.jpg",
+
+    "overview":
+      "Les enfants de Holt Farrier, ex-artiste de cirque chargé de s’occuper d’un éléphanteau dont les oreilles démesurées sont la risée du public, découvrent que ce dernier sait voler...",
+    "release_date": "2019"
+  },
+  {
+    "type": "Action",
+    "id": 278,
+    "video": false,
+    "vote_average": "2h 09",
+    "title": "Aladdin",
+    "adult": 1500,
+    "children": 1000,
+    "Author":"De john Favreauv avec jujilo",
+    "poster_path":
+      "https://www.canalolympia.com/wp-content/uploads/2019/06/aladdin.jpg",
+    "original_language": "en",
+    "original_title": "The Shawshank Redemption",
+    "genre_ids": [18, 80],
+    "backdrop_path": "/xBKGJQsAIeweesB79KC89FpBrVr.jpg",
+
+    "overview":"Quand un charmant garçon des rues du nom d’Aladdin cherche à conquérir le cœur de la belle, énigmatique et fougueuse princesse Jasmine, il fait appel au tout puissant Génie, le seul qui puisse lui permettre de réaliser trois vœux, dont celui de devenir le prince Ali pour mieux accéder au palais…",
+    "release_date": "2017"
+  },
+  {
+    "type": "Fiction",
+    "id": 372058,
+    "video": false,
+    "vote_average": "1h 55",
+    "title": "Dark Phoenix",
+    "adult": 5000,
+    "children": 1200,
+    "Author":"Rayane Bensetti, Anne sila",
+    "poster_path":
+      "https://www.canalolympia.com/wp-content/uploads/2019/06/dark-phoenix.jpg",
+    "original_language": "ja",
+    "original_title": "君の名は。",
+    "genre_ids": [10749, 16, 18],
+    "backdrop_path": "/7OMAfDJikBxItZBIug0NJig5DHD.jpg",
+
+    "overview":"Dans cet ultime volet, les X-MEN affrontent leur ennemi le plus puissant, Jean Grey, l’une des leurs. Au cours d'une mission de sauvetage dans l'espace, Jean Grey frôle la mort, frappée par une mystérieuse force cosmique. De retour sur Terre, cette force la rend non seulement infiniment plus puissante, mais aussi beaucoup plus instable. En lutte contre elle-même, Jean Grey déchaîne ses pouvoirs, incapable de les comprendre ou de les maîtriser. Devenue incontrôlable et dangereuse pour ses proches, elle défait peu à peu les liens qui unissent les X-Men.",
+    "release_date": "2012"
+  },
+  {
+    "type": "films",
+    "id": 238,
+    "video": false,
+    "vote_average": "1h 05",
+    "title": "Men in Black: International",
+    "adult": 7000,
+    "children": 1500,
+    "Author":"De john Favreauv avec Rayane Bensetti, Anne sila",
+    "poster_path":
+      "https://www.canalolympia.com/wp-content/uploads/2019/06/men-in-black-international.jpg",
+    "original_language": "en",
+    "original_title": "The Godfather",
+    "genre_ids": [18, 80],
+    "backdrop_path": "/6xKCYgH16UuwEGAyroLU6p8HLIn.jpg",
+
+    "overview":
+    "Les Men In Black ont toujours protégé la Terre de la vermine de l’univers. Dans cette nouvelle aventure, ils s’attaquent à la menace la plus importante qu’ils aient rencontrée à ce jour : une taupe au sein de l’organisation Men In Black.",
+    "release_date": "2018"
+  },
+  {
+    "type": "films",
+    "id": 424,
+    "video": false,
+    "vote_average": "1h 39",
+    "title": "An",
+    "adult": 3500,
+    "children": 1000,
+    "Author":"De john Favreauv avec Rayane Bensetti, Anne sila",
+    "poster_path":
+      "https://www.canalolympia.com/wp-content/uploads/2019/06/ma.jpg",
+    "original_language": "en",
+    "original_title": "Schindler's List",
+    "genre_ids": [18, 36, 10752],
+    "backdrop_path": "/rIpSszng8P0DL0TimSzZbpfnvh1.jpg",
+
+    "overview":
+    "Sue Ann, une femme solitaire vit dans une petite ville de l’Ohio. Un jour, une adolescente ayant récemment emménagé, lui demande d’acheter de l’alcool pour elle et ses amis ; Sue Ann y voit la possibilité de se faire de nouveaux amis plus jeunes qu’elle. Elle propose aux adolescents de traîner et de boire en sûreté dans le sous-sol aménagé de sa maison. Mais Sue Ann a quelques règles : ne pas blasphémer, l’adolescent qui conduit doit rester sobre, ne jamais monter dans sa maison et l’appeler MA. Mais l’hospitalité de MA commence à virer à l’obsession. Le sous-sol qui au début était pour les adolescents l’endroit rêvé pour faire la fête va devenir le pire endroit sur terre.",
+    "release_date": "2016"
+  },
+
+  {
+    "type": 3092,
+    "id": 73,
+    "video": false,
+    "vote_average": 8.2,
+    "title": "American History X",
+    "adult":1500,
+    "children": 1500,
+    "Author":"De john Favreauv avec Rayane Bensetti, Anne sila",
+    "poster_path":
+      "https://image.tmdb.org/t/p/w185/drVNUpvIvJ1UivX7pLFSvOZlmQO.jpg",
+    "original_language": "en",
+    "original_title": "American History X",
+    "genre_ids": [18],
+    "backdrop_path": "/i9A0UMFg1hI2kLyCCwnmSbpT2cd.jpg",
+
+    "overview":
+      "A travers l'histoire d'une famille américaine, ce film tente d'expliquer l'origine du racisme et de l'extrémisme aux Etats-Unis. Il raconte l'histoire de Derek qui, voulant venger la mort de son père, abattu par un dealer noir, a épousé les thèses racistes d'un groupuscule de militants d'extrême droite et s'est mis au service de son leader, brutal théoricien prônant la suprématie de la race blanche. Ces théories le mèneront à commettre un double meurtre entrainant son jeune frère, Danny, dans la spirale de la haine.",
+    "release_date": "2019"
+  },
+  {
+    "type": 4344,
+    "id": 101,
+    "video": false,
+    "vote_average": 8.2,
+    "title": "Léon",
+    "adult": 3000,
+    "children": 1200,
+    "Author":"De john Favreauv avec Rayane Bensetti, Anne sila",
+
+    "poster_path":
+      "https://image.tmdb.org/t/p/w185/gbw7Tm7SUyiTMhI2B8yHk4OcT9I.jpg",
+    "original_language": "fr",
+    "original_title": "Léon",
+    "genre_ids": [53, 80, 18],
+    "backdrop_path": "/mGN0lH2phYfesyEVqP2xvGUaxAQ.jpg",
+
+    "overview":
+      "Un tueur à gages répondant au nom de Léon prend sous son aile Mathilda, une petite fille de douze ans, seule rescapée du massacre de sa famille. Bientôt, Léon va faire de Mathilda une \"nettoyeuse\", comme lui. Et Mathilda pourra venger son petit frère...",
+    "release_date": "2016"
+  }
+]

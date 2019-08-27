@@ -1,0 +1,43 @@
+<div *ngIf="showSplash" class="splash">
+<img src="../../assets/imgs/canal.jpg" style="margin:auto; display: block; margin-top: 2vh; width: 40%;display: inline-block;
+  position: absolute;">
+  <div class="spinner">
+  <div class="dot1"></div>
+  <div class="dot2"></div>
+</div>
+</div>
+
+
+
+<ion-menu [content]="content" [class]="selectedTheme">
+  <ion-header class="menu" >
+       <img src="../assets/imgs/canal.jpg" style="margin:auto; margin-top: 8vh; display: block; width: 100%">
+       <p style="text-align: center; color: white;">rapidité - fiabilité - satifaction</p>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        <ion-icon [name]="p.icon" item-left></ion-icon>
+        {{p.name}}
+        {{p.title}}
+      </button>
+
+      <button menuClose ion-item *ngFor="let e of exits" (click)="exit(e)">
+        <ion-icon [name]="e.icon" item-left></ion-icon>
+        {{e.name}}
+        {{e.title}}
+      </button>
+
+
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<ion-fab right bottom>
+    <button ion-fab color="light" (click)="AppTheme()"><ion-icon name="bulb"></ion-icon></button>
+  </ion-fab>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false" [class]="selectedTheme"></ion-nav>

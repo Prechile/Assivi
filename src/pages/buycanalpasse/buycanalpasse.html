@@ -1,0 +1,112 @@
+<!--
+  Generated template for the BuycanalpassePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color='canal'>
+    <ion-title>Achat de ticket</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class=" cards-bg">
+  <ion-card id="ticket" *ngIf="movie">
+    <ion-card-header>
+      <b style="color: #FFFF;">{{movie.title}}</b>
+    </ion-card-header>
+
+    <ion-list padding>
+      <p style="color: #FFFF">
+        <ion-icon name='time' item-start color="canal"></ion-icon>
+         Durée: {{movie.vote_average}}
+      </p>
+
+      <p style="color: #FFFF;">
+        <ion-icon name='cash'  item-start color="canal"></ion-icon>
+         Tarif adult: {{movie.adult}}
+    	</p>
+
+      <p style="color: #FFFF;">
+        <ion-icon name='cash' item-start color="canal"></ion-icon>
+         Tarif enfant: {{movie.children}}
+      </p>
+
+      <p style="color: #FFFF;">
+        <ion-icon name='albums' item-start color="canal"></ion-icon>
+         Catégorie: {{movie.type}}
+    	</p>
+
+
+    </ion-list>
+  </ion-card>
+  <br><br>
+<b padding>Effectuer votre achat</b>
+ <br>
+<ion-list>
+  <form [formGroup]="formlogin">
+
+  <ion-card *ngIf="movie">
+    <ion-icon item-start name="card" style="font-size:27px;"></ion-icon>
+    Tarif-nombre de ticket:
+    <div>
+    <ion-row>
+          <ion-col class="adult" width-70>
+            <span ion-text ><strong>{{ movie.adult}}</strong> Adulte</span>
+          </ion-col>
+          <ion-col width-10 text-center>
+            <ion-icon  name="remove-circle" class="text-2x" tappable (click)="minusAdult()" [hidden]="adults < 1"
+                   color="canal"></ion-icon>
+          </ion-col>
+          <ion-col width-10 text-center>{{ adults }}</ion-col>
+          <ion-col width-10 text-center>
+            <ion-icon name="add-circle" class="text-2x" tappable (click)="plusAdult()"  color="canal"></ion-icon>
+          </ion-col>
+        </ion-row>
+        <ion-row margin-top>
+          <ion-col width-70>
+            <span ion-text ><strong>{{ movie.children}}</strong> Enfant (0-12 ans)</span>
+          </ion-col>
+          <ion-col width-10 text-center>
+            <ion-icon name="remove-circle" class="text-2x" tappable (click)="minusChildren()"  [hidden]="children < 1"color="canal"></ion-icon>
+          </ion-col>
+          <ion-col width-10 text-center>{{ children }}</ion-col>
+          <ion-col width-10 text-center>
+            <ion-icon name="add-circle" class="text-2x" tappable (click)="plusChildren()"  color="canal"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </div>
+
+     <ion-item>
+        <ion-icon item-start name="phone-portrait"></ion-icon>
+
+<ion-input item-end type="number" [(ngModel)]="tel" formControlName="tel" placeholder="indicatif Numéro de telephone"></ion-input>
+    </ion-item>
+
+ <ion-item>
+  <ion-icon item-start name="card"></ion-icon>
+      <ion-label>Payer avec</ion-label>
+      <ion-select [(ngModel)]="mode" formControlName="mode">
+        <ion-option value="Tmoney">Tmoney</ion-option>
+        <ion-option value="Flooz">Flooz</ion-option>
+      </ion-select>
+    </ion-item>
+
+
+      <ion-item>
+        <ion-input [(ngModel)]="sum" formControlName="sum" value="{{ adults * movie.adult + children * movie.children}}" disable hidden></ion-input>
+      </ion-item>
+</ion-card>
+    </form>
+
+</ion-list>
+
+<div *ngIf="movie">
+<button ion-button color='canal' style="margin: auto; display: block; padding: 4vh;" (tap)="effectuer()" round> Effectuer  {{ adults * movie.adult + children * movie.children}} F</button>
+</div>
+
+
+
+</ion-content>
